@@ -396,11 +396,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1615688319}
   - {fileID: 1431775570}
+  - {fileID: 1615688319}
   - {fileID: 380641054}
-  - {fileID: 726686548}
   - {fileID: 1851876908}
+  - {fileID: 726686548}
   m_Father: {fileID: 317624260}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5316,6 +5316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa114f559e8b24a90ae04be49573f53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _magnitude: 9.2
 --- !u!4 &898174433 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 1de95aafaed1b594b88a317c6a6ac028, type: 3}
@@ -7449,7 +7450,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 19572829}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1431775571
 BoxCollider:
@@ -9970,7 +9971,7 @@ Transform:
   - {fileID: 2100428285}
   - {fileID: 1499802817}
   m_Father: {fileID: 19572829}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1858688992
 PrefabInstance:
