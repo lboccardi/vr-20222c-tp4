@@ -10,6 +10,7 @@ public class BallThrow : MonoBehaviour
     {
         Vector3 vector = new Vector3(1, 2, 0).normalized;
         this.transform.GetComponent<Rigidbody>().AddForce(vector * _magnitude, ForceMode.Impulse);
+        this.transform.GetComponent<Rigidbody>().AddTorque(vector * _magnitude * 0.01f, ForceMode.Impulse);
     }
 
 }
